@@ -12,6 +12,8 @@ body {
 }
 
 header {
+    z-index: 1;
+    position: sticky; top: 0px;
     background-color: white;
     height: 90px;
     border-bottom: 3px solid #f0f0f0;
@@ -249,7 +251,6 @@ textarea {
 /*Portfolio Page*/
 
 #main-container3 {
-    background-color: black;
     display: flex;
     margin: 35px 70px;
     height: 950px;
@@ -292,4 +293,43 @@ textarea {
     color: white;
     bottom: 60px;
     padding: 10px;
+}
+
+#social-links-box3 {
+    background-color: white;
+    border: 3px solid #f0f0f0;
+    width: 200px;
+    height: 150px;
+    margin-left: 102px;
+}
+
+#connect3 {
+    color: #4baaa5;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    border-bottom: 3px solid #f0f0f0;
+    text-align: center;
+    padding: 10px; 
+}
+
+#connect-links3 {
+    margin: 10px 60px;
+}
+
+#bottom-container3 {
+    background-color: #666666;
+    color: #9b9495;
+    height: 70px;
+    border-top: 4px solid #4baaa5;
+    margin-top: 103px;
+}
+
+#footer3 {
+    margin-top: 22px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
